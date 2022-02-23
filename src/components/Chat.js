@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { db, auth } from './firebase'
+import Heading from './Heading'
 import SendMessge from './SendMessge'
 import SignOut from './SignOut'
 
@@ -16,6 +17,7 @@ function Chat() {
     return (
 
         <div>
+            <Heading/>
             <SignOut />
             <div className='msgs'>
             {messages.map(({ id, text, photoURL, uid }) => (
