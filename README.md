@@ -6,4 +6,4 @@ Imported Google authentication from firebase to get the users.
 
 ![image](https://user-images.githubusercontent.com/68497024/155280657-97705307-9b6d-469d-a6aa-a5792cdddfdc.png)
 
-Load the messages and google image from the firestore database. 
+Loaded the messages and google images from the firestore database. 
